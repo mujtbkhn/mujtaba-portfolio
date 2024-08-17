@@ -1,9 +1,13 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Home from './components/Home'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Footer from "./components/Footer"
+import type { NextPage } from "next";
+import Head from "next/head";
+import Home from "./components/Home";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+
+export const metadata = {
+  title: "Mujtaba Khan",
+};
 
 const Portfolio: NextPage = () => {
   return (
@@ -11,8 +15,9 @@ const Portfolio: NextPage = () => {
       <Head>
         <title>Mujtaba Khan</title>
         <meta name="description" content="Mujtaba khan portfolio website" />
-        <link rel="icon" href="/Mujtaba Khan.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main>
         <Home />
         <Experience />
@@ -20,7 +25,7 @@ const Portfolio: NextPage = () => {
       </main>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
