@@ -9,9 +9,9 @@ const Portfolio: NextPage = () => {
   return (
     <div className="min-h-screen bg-dark text-light px-4 md:px-96">
       <Head>
-        <title>Your Name - Portfolio</title>
-        <meta name="description" content="Your professional portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Mujtaba Khan</title>
+        <meta name="description" content="Mujtaba khan portfolio website" />
+        <link rel="icon" href="/Mujtaba Khan.png" />
       </Head>
       <main>
         <Home />
