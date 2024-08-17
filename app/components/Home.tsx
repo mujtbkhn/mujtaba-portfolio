@@ -79,9 +79,9 @@ const Home: React.FC = () => {
 
       <div className="container mx-auto">
         <p className="mx-auto md:text-lg leading-relaxed">
-          23' IT grad, passionate about crafting innovative frontend and backend
-          applications that blend creativity with real-world value. When I'm not
-          coding, you'll find me following UFC, YouTube, or fantasy
+          23&#39; IT grad, passionate about crafting innovative frontend and backend
+          applications that blend creativity with real-world value. When I&#39;m not
+          coding, you&#39;ll find me following UFC, YouTube, or fantasy
           movies/shows.
         </p>
       </div>
